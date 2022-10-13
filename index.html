@@ -306,7 +306,7 @@ input:disabled {
 </head>
 <body>
 <form id="inputForm">
-    <div class="header">
+    <div class="header" style="display:none">
         <div class="header__grid">
             <img class="header__logo" src="https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/6143750f1177056d60fc52d9_roboflow_logomark_inference.png" alt="Roboflow Inference">
             <div>
@@ -327,7 +327,7 @@ input:disabled {
     <div class="content">
         <div class="content__grid">
             <div class="col-12-s6-m4" id="method">
-                <label class="input__label">Upload Method</label>
+                <label class="input__label">Upload Method, just choose;</label>
                 <div>
                     <button data-value="upload" id="computerButton" class="bttn left fill active">Upload</button>
                     <button data-value="url" id="urlButton" class="bttn right fill">URL</button>
@@ -643,9 +643,6 @@ var resizeImage = function(base64Str) {
     
 	});	
 };
-
 </script>
-
-
 </body>
 </html>
